@@ -1,7 +1,7 @@
 <template>
   <div class="card p-2">
     <div class="d-flex justify-content-end">
-      <button class="btn btn-primary btn-sm" @click="$router.push({ name: 'NewBookmark' })">+ Yeni Ekle</button>
+      <button class="btn btn-primary btn-sm" @click="$router.push({ name: 'NewBookmark' })">+ Add New</button>
     </div>
     <table class="table table-striped table-hover">
       <thead>
@@ -24,7 +24,7 @@
             {{ bookmark.description }}
           </td>
           <td>
-            <button @click="deleteBookmark(bookmark)" class="btn btn-sm btn-danger">Sil</button>
+            <button @click="deleteBookmark(bookmark)" class="btn btn-sm btn-danger">Delete</button>
           </td>
         </tr>
       </tbody>

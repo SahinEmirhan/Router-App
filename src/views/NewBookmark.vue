@@ -14,8 +14,8 @@
     </div>
 
     <div class="d-flex justify-content-end align-items-center">
-      <button class="btn btn-sm btn-secondary me-1" @click="$router.push({ name: 'HomePage' })">İptal</button>
-      <button class="btn btn-sm btn-primary" @click="onSave">Kaydet</button>
+      <button class="btn btn-sm btn-secondary me-1" @click="$router.push({ name: 'HomePage' })">Cancel</button>
+      <button class="btn btn-sm btn-primary" @click="onSave">Save</button>
     </div>
   </div>
 </template>
